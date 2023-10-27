@@ -8,6 +8,8 @@ const out = document.getElementById('output');
 const copytoclipboard = document.getElementById('clipboard');
 let pass = "";
 
+
+lengthDisplay.textContent = len.value;
 len.addEventListener('input', () => {
     lengthDisplay.textContent = len.value;
 });
